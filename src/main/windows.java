@@ -44,6 +44,7 @@ public class windows extends JFrame implements Runnable{
     public static void main (String [] args){
        new windows().start();       
 }
+    
 private void update(){
     
 }
@@ -71,6 +72,7 @@ private void draw(){
         thread.start();
         running = true;
     }
+    //hgfhjjk
     private void stop(){
         try {
             thread.join();
